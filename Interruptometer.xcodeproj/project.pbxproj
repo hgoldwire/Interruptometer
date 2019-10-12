@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8AB9C8A235150C700B1A5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9C89235150C700B1A5FF /* AppDelegate.swift */; };
+		E8AB9C8C235150C700B1A5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9C8B235150C700B1A5FF /* SceneDelegate.swift */; };
+		E8AB9C8E235150C700B1A5FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9C8D235150C700B1A5FF /* ContentView.swift */; };
+		E8AB9C90235150CA00B1A5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9C8F235150CA00B1A5FF /* Assets.xcassets */; };
+		E8AB9C93235150CA00B1A5FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9C92235150CA00B1A5FF /* Preview Assets.xcassets */; };
+		E8AB9C96235150CA00B1A5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9C94235150CA00B1A5FF /* LaunchScreen.storyboard */; };
+		E8AB9CA1235150CA00B1A5FF /* InterruptometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CA0235150CA00B1A5FF /* InterruptometerTests.swift */; };
+		E8AB9CAC235150CA00B1A5FF /* InterruptometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CAB235150CA00B1A5FF /* InterruptometerUITests.swift */; };
+		E8AB9CB1235150CA00B1A5FF /* Interruptometer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E8AB9CB0235150CA00B1A5FF /* Interruptometer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E8AB9CB7235150CA00B1A5FF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9CB5235150CA00B1A5FF /* Interface.storyboard */; };
+		E8AB9CB9235150CA00B1A5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9CB8235150CA00B1A5FF /* Assets.xcassets */; };
+		E8AB9CC0235150CA00B1A5FF /* Interruptometer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E8AB9CBF235150CA00B1A5FF /* Interruptometer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E8AB9CC5235150CA00B1A5FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CC4235150CA00B1A5FF /* ContentView.swift */; };
+		E8AB9CC7235150CA00B1A5FF /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CC6235150CA00B1A5FF /* HostingController.swift */; };
+		E8AB9CC9235150CA00B1A5FF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CC8235150CA00B1A5FF /* ExtensionDelegate.swift */; };
+		E8AB9CCB235150CA00B1A5FF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CCA235150CA00B1A5FF /* NotificationController.swift */; };
+		E8AB9CCD235150CA00B1A5FF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CCC235150CA00B1A5FF /* NotificationView.swift */; };
+		E8AB9CCF235150CA00B1A5FF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB9CCE235150CA00B1A5FF /* ComplicationController.swift */; };
+		E8AB9CD1235150CB00B1A5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9CD0235150CB00B1A5FF /* Assets.xcassets */; };
+		E8AB9CD4235150CB00B1A5FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB9CD3235150CB00B1A5FF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8AB9C9D235150CA00B1A5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AB9C7E235150C700B1A5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8AB9C85235150C700B1A5FF;
+			remoteInfo = Interruptometer;
+		};
+		E8AB9CA8235150CA00B1A5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AB9C7E235150C700B1A5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8AB9C85235150C700B1A5FF;
+			remoteInfo = Interruptometer;
+		};
+		E8AB9CB2235150CA00B1A5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AB9C7E235150C700B1A5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8AB9CAF235150CA00B1A5FF;
+			remoteInfo = "Interruptometer WatchKit App";
+		};
+		E8AB9CC1235150CA00B1A5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AB9C7E235150C700B1A5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8AB9CBE235150CA00B1A5FF;
+			remoteInfo = "Interruptometer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8AB9CDC235150CB00B1A5FF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E8AB9CC0235150CA00B1A5FF /* Interruptometer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CE0235150CB00B1A5FF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E8AB9CB1235150CA00B1A5FF /* Interruptometer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E8AB9C86235150C700B1A5FF /* Interruptometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interruptometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AB9C89235150C700B1A5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8AB9C8B235150C700B1A5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8AB9C8D235150C700B1A5FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8AB9C8F235150CA00B1A5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8AB9C92235150CA00B1A5FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8AB9C95235150CA00B1A5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8AB9C97235150CA00B1A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AB9C9C235150CA00B1A5FF /* InterruptometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterruptometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AB9CA0235150CA00B1A5FF /* InterruptometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterruptometerTests.swift; sourceTree = "<group>"; };
+		E8AB9CA2235150CA00B1A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AB9CA7235150CA00B1A5FF /* InterruptometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterruptometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AB9CAB235150CA00B1A5FF /* InterruptometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterruptometerUITests.swift; sourceTree = "<group>"; };
+		E8AB9CAD235150CA00B1A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AB9CB0235150CA00B1A5FF /* Interruptometer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interruptometer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AB9CB6235150CA00B1A5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E8AB9CB8235150CA00B1A5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8AB9CBA235150CA00B1A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AB9CBF235150CA00B1A5FF /* Interruptometer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Interruptometer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AB9CC4235150CA00B1A5FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8AB9CC6235150CA00B1A5FF /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		E8AB9CC8235150CA00B1A5FF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E8AB9CCA235150CA00B1A5FF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E8AB9CCC235150CA00B1A5FF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		E8AB9CCE235150CA00B1A5FF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E8AB9CD0235150CB00B1A5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8AB9CD3235150CB00B1A5FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8AB9CD5235150CB00B1A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AB9CD6235150CB00B1A5FF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8AB9C83235150C700B1A5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9C99235150CA00B1A5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CA4235150CA00B1A5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CBC235150CA00B1A5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8AB9C7D235150C700B1A5FF = {
+			isa = PBXGroup;
+			children = (
+				E8AB9C88235150C700B1A5FF /* Interruptometer */,
+				E8AB9C9F235150CA00B1A5FF /* InterruptometerTests */,
+				E8AB9CAA235150CA00B1A5FF /* InterruptometerUITests */,
+				E8AB9CB4235150CA00B1A5FF /* Interruptometer WatchKit App */,
+				E8AB9CC3235150CA00B1A5FF /* Interruptometer WatchKit Extension */,
+				E8AB9C87235150C700B1A5FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8AB9C87235150C700B1A5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9C86235150C700B1A5FF /* Interruptometer.app */,
+				E8AB9C9C235150CA00B1A5FF /* InterruptometerTests.xctest */,
+				E8AB9CA7235150CA00B1A5FF /* InterruptometerUITests.xctest */,
+				E8AB9CB0235150CA00B1A5FF /* Interruptometer WatchKit App.app */,
+				E8AB9CBF235150CA00B1A5FF /* Interruptometer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AB9C88235150C700B1A5FF /* Interruptometer */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9C89235150C700B1A5FF /* AppDelegate.swift */,
+				E8AB9C8B235150C700B1A5FF /* SceneDelegate.swift */,
+				E8AB9C8D235150C700B1A5FF /* ContentView.swift */,
+				E8AB9C8F235150CA00B1A5FF /* Assets.xcassets */,
+				E8AB9C94235150CA00B1A5FF /* LaunchScreen.storyboard */,
+				E8AB9C97235150CA00B1A5FF /* Info.plist */,
+				E8AB9C91235150CA00B1A5FF /* Preview Content */,
+			);
+			path = Interruptometer;
+			sourceTree = "<group>";
+		};
+		E8AB9C91235150CA00B1A5FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9C92235150CA00B1A5FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8AB9C9F235150CA00B1A5FF /* InterruptometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9CA0235150CA00B1A5FF /* InterruptometerTests.swift */,
+				E8AB9CA2235150CA00B1A5FF /* Info.plist */,
+			);
+			path = InterruptometerTests;
+			sourceTree = "<group>";
+		};
+		E8AB9CAA235150CA00B1A5FF /* InterruptometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9CAB235150CA00B1A5FF /* InterruptometerUITests.swift */,
+				E8AB9CAD235150CA00B1A5FF /* Info.plist */,
+			);
+			path = InterruptometerUITests;
+			sourceTree = "<group>";
+		};
+		E8AB9CB4235150CA00B1A5FF /* Interruptometer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9CB5235150CA00B1A5FF /* Interface.storyboard */,
+				E8AB9CB8235150CA00B1A5FF /* Assets.xcassets */,
+				E8AB9CBA235150CA00B1A5FF /* Info.plist */,
+			);
+			path = "Interruptometer WatchKit App";
+			sourceTree = "<group>";
+		};
+		E8AB9CC3235150CA00B1A5FF /* Interruptometer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9CC4235150CA00B1A5FF /* ContentView.swift */,
+				E8AB9CC6235150CA00B1A5FF /* HostingController.swift */,
+				E8AB9CC8235150CA00B1A5FF /* ExtensionDelegate.swift */,
+				E8AB9CCA235150CA00B1A5FF /* NotificationController.swift */,
+				E8AB9CCC235150CA00B1A5FF /* NotificationView.swift */,
+				E8AB9CCE235150CA00B1A5FF /* ComplicationController.swift */,
+				E8AB9CD0235150CB00B1A5FF /* Assets.xcassets */,
+				E8AB9CD5235150CB00B1A5FF /* Info.plist */,
+				E8AB9CD6235150CB00B1A5FF /* PushNotificationPayload.apns */,
+				E8AB9CD2235150CB00B1A5FF /* Preview Content */,
+			);
+			path = "Interruptometer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E8AB9CD2235150CB00B1A5FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB9CD3235150CB00B1A5FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8AB9C85235150C700B1A5FF /* Interruptometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AB9CE1235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "Interruptometer" */;
+			buildPhases = (
+				E8AB9C82235150C700B1A5FF /* Sources */,
+				E8AB9C83235150C700B1A5FF /* Frameworks */,
+				E8AB9C84235150C700B1A5FF /* Resources */,
+				E8AB9CE0235150CB00B1A5FF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AB9CB3235150CA00B1A5FF /* PBXTargetDependency */,
+			);
+			name = Interruptometer;
+			productName = Interruptometer;
+			productReference = E8AB9C86235150C700B1A5FF /* Interruptometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8AB9C9B235150CA00B1A5FF /* InterruptometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AB9CE4235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "InterruptometerTests" */;
+			buildPhases = (
+				E8AB9C98235150CA00B1A5FF /* Sources */,
+				E8AB9C99235150CA00B1A5FF /* Frameworks */,
+				E8AB9C9A235150CA00B1A5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AB9C9E235150CA00B1A5FF /* PBXTargetDependency */,
+			);
+			name = InterruptometerTests;
+			productName = InterruptometerTests;
+			productReference = E8AB9C9C235150CA00B1A5FF /* InterruptometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8AB9CA6235150CA00B1A5FF /* InterruptometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AB9CE7235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "InterruptometerUITests" */;
+			buildPhases = (
+				E8AB9CA3235150CA00B1A5FF /* Sources */,
+				E8AB9CA4235150CA00B1A5FF /* Frameworks */,
+				E8AB9CA5235150CA00B1A5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AB9CA9235150CA00B1A5FF /* PBXTargetDependency */,
+			);
+			name = InterruptometerUITests;
+			productName = InterruptometerUITests;
+			productReference = E8AB9CA7235150CA00B1A5FF /* InterruptometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E8AB9CAF235150CA00B1A5FF /* Interruptometer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AB9CDD235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "Interruptometer WatchKit App" */;
+			buildPhases = (
+				E8AB9CAE235150CA00B1A5FF /* Resources */,
+				E8AB9CDC235150CB00B1A5FF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AB9CC2235150CA00B1A5FF /* PBXTargetDependency */,
+			);
+			name = "Interruptometer WatchKit App";
+			productName = "Interruptometer WatchKit App";
+			productReference = E8AB9CB0235150CA00B1A5FF /* Interruptometer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E8AB9CBE235150CA00B1A5FF /* Interruptometer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AB9CD9235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "Interruptometer WatchKit Extension" */;
+			buildPhases = (
+				E8AB9CBB235150CA00B1A5FF /* Sources */,
+				E8AB9CBC235150CA00B1A5FF /* Frameworks */,
+				E8AB9CBD235150CA00B1A5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interruptometer WatchKit Extension";
+			productName = "Interruptometer WatchKit Extension";
+			productReference = E8AB9CBF235150CA00B1A5FF /* Interruptometer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8AB9C7E235150C700B1A5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Henry Goldwire";
+				TargetAttributes = {
+					E8AB9C85235150C700B1A5FF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					E8AB9C9B235150CA00B1A5FF = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = E8AB9C85235150C700B1A5FF;
+					};
+					E8AB9CA6235150CA00B1A5FF = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = E8AB9C85235150C700B1A5FF;
+					};
+					E8AB9CAF235150CA00B1A5FF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					E8AB9CBE235150CA00B1A5FF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = E8AB9C81235150C700B1A5FF /* Build configuration list for PBXProject "Interruptometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8AB9C7D235150C700B1A5FF;
+			productRefGroup = E8AB9C87235150C700B1A5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AB9C85235150C700B1A5FF /* Interruptometer */,
+				E8AB9C9B235150CA00B1A5FF /* InterruptometerTests */,
+				E8AB9CA6235150CA00B1A5FF /* InterruptometerUITests */,
+				E8AB9CAF235150CA00B1A5FF /* Interruptometer WatchKit App */,
+				E8AB9CBE235150CA00B1A5FF /* Interruptometer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8AB9C84235150C700B1A5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9C96235150CA00B1A5FF /* LaunchScreen.storyboard in Resources */,
+				E8AB9C93235150CA00B1A5FF /* Preview Assets.xcassets in Resources */,
+				E8AB9C90235150CA00B1A5FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9C9A235150CA00B1A5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CA5235150CA00B1A5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CAE235150CA00B1A5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9CB9235150CA00B1A5FF /* Assets.xcassets in Resources */,
+				E8AB9CB7235150CA00B1A5FF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CBD235150CA00B1A5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9CD4235150CB00B1A5FF /* Preview Assets.xcassets in Resources */,
+				E8AB9CD1235150CB00B1A5FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8AB9C82235150C700B1A5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9C8A235150C700B1A5FF /* AppDelegate.swift in Sources */,
+				E8AB9C8C235150C700B1A5FF /* SceneDelegate.swift in Sources */,
+				E8AB9C8E235150C700B1A5FF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9C98235150CA00B1A5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9CA1235150CA00B1A5FF /* InterruptometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CA3235150CA00B1A5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9CAC235150CA00B1A5FF /* InterruptometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AB9CBB235150CA00B1A5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AB9CC7235150CA00B1A5FF /* HostingController.swift in Sources */,
+				E8AB9CC5235150CA00B1A5FF /* ContentView.swift in Sources */,
+				E8AB9CCB235150CA00B1A5FF /* NotificationController.swift in Sources */,
+				E8AB9CC9235150CA00B1A5FF /* ExtensionDelegate.swift in Sources */,
+				E8AB9CCD235150CA00B1A5FF /* NotificationView.swift in Sources */,
+				E8AB9CCF235150CA00B1A5FF /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8AB9C9E235150CA00B1A5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8AB9C85235150C700B1A5FF /* Interruptometer */;
+			targetProxy = E8AB9C9D235150CA00B1A5FF /* PBXContainerItemProxy */;
+		};
+		E8AB9CA9235150CA00B1A5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8AB9C85235150C700B1A5FF /* Interruptometer */;
+			targetProxy = E8AB9CA8235150CA00B1A5FF /* PBXContainerItemProxy */;
+		};
+		E8AB9CB3235150CA00B1A5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8AB9CAF235150CA00B1A5FF /* Interruptometer WatchKit App */;
+			targetProxy = E8AB9CB2235150CA00B1A5FF /* PBXContainerItemProxy */;
+		};
+		E8AB9CC2235150CA00B1A5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8AB9CBE235150CA00B1A5FF /* Interruptometer WatchKit Extension */;
+			targetProxy = E8AB9CC1235150CA00B1A5FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8AB9C94235150CA00B1A5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AB9C95235150CA00B1A5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8AB9CB5235150CA00B1A5FF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AB9CB6235150CA00B1A5FF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8AB9CD7235150CB00B1A5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8AB9CD8235150CB00B1A5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8AB9CDA235150CB00B1A5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Interruptometer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Interruptometer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.Interruptometer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E8AB9CDB235150CB00B1A5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Interruptometer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Interruptometer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.Interruptometer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		E8AB9CDE235150CB00B1A5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				IBSC_MODULE = Interruptometer_WatchKit_Extension;
+				INFOPLIST_FILE = "Interruptometer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.Interruptometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E8AB9CDF235150CB00B1A5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				IBSC_MODULE = Interruptometer_WatchKit_Extension;
+				INFOPLIST_FILE = "Interruptometer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.Interruptometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		E8AB9CE2235150CB00B1A5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Interruptometer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Interruptometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.Interruptometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8AB9CE3235150CB00B1A5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Interruptometer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Interruptometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.Interruptometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8AB9CE5235150CB00B1A5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				INFOPLIST_FILE = InterruptometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.InterruptometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interruptometer.app/Interruptometer";
+			};
+			name = Debug;
+		};
+		E8AB9CE6235150CB00B1A5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				INFOPLIST_FILE = InterruptometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.InterruptometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interruptometer.app/Interruptometer";
+			};
+			name = Release;
+		};
+		E8AB9CE8235150CB00B1A5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				INFOPLIST_FILE = InterruptometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.InterruptometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Interruptometer;
+			};
+			name = Debug;
+		};
+		E8AB9CE9235150CB00B1A5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8V76UVMX;
+				INFOPLIST_FILE = InterruptometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kalico.InterruptometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Interruptometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8AB9C81235150C700B1A5FF /* Build configuration list for PBXProject "Interruptometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB9CD7235150CB00B1A5FF /* Debug */,
+				E8AB9CD8235150CB00B1A5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AB9CD9235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "Interruptometer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB9CDA235150CB00B1A5FF /* Debug */,
+				E8AB9CDB235150CB00B1A5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AB9CDD235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "Interruptometer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB9CDE235150CB00B1A5FF /* Debug */,
+				E8AB9CDF235150CB00B1A5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AB9CE1235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "Interruptometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB9CE2235150CB00B1A5FF /* Debug */,
+				E8AB9CE3235150CB00B1A5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AB9CE4235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "InterruptometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB9CE5235150CB00B1A5FF /* Debug */,
+				E8AB9CE6235150CB00B1A5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AB9CE7235150CB00B1A5FF /* Build configuration list for PBXNativeTarget "InterruptometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB9CE8235150CB00B1A5FF /* Debug */,
+				E8AB9CE9235150CB00B1A5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8AB9C7E235150C700B1A5FF /* Project object */;
+}
